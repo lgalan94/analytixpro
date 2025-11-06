@@ -36,7 +36,7 @@ const Testimonials: React.FC = () => {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial) => (
             <div key={testimonial.author} className="bg-white p-8 rounded-xl shadow-md border border-slate-100 flex flex-col">
-              <div className="flex-grow">
+              <div className="grow">
                 <svg className="h-8 w-8 text-primary-200" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
                     <path d="M9.33 12.28a3.97 3.97 0 00-3.93 4.07v5.33h5.27v-5.46a3.97 3.97 0 00-1.34-3.94zM24 12.28a3.97 3.97 0 00-3.93 4.07v5.33h5.26v-5.46a3.97 3.97 0 00-1.33-3.94z" />
                 </svg>

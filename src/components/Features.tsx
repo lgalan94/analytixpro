@@ -73,7 +73,7 @@ const Features: React.FC = () => {
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {features.map((feature) => (
             <div key={feature.title} className="flex">
-              <div className="flex-shrink-0">
+              <div className="shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-600">
                   {feature.icon}
                 </div>

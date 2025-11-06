@@ -26,7 +26,7 @@ const Header: React.FC = () => {
     <header className="bg-slate-50/80 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-200">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="">
+          <div className="shrink-0">
              <a href="#" aria-label="Home"><Logo /></a>
           </div>
           <nav className="hidden md:flex md:items-center md:space-x-8">
