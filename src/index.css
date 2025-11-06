@@ -15,3 +15,7 @@
   /* optional DEFAULT shade (used when you write bg-primary) */
   --color-primary: var(--color-primary-500);
 }
+
+html {
+  scroll-behavior: smooth;
+}
