@@ -27,14 +27,6 @@ const footerLinks = {
   ],
 };
 
-const SocialIcon: React.FC<{ href: string, path: string }> = ({ href, path }) => (
-    <a href={href} className="text-slate-400 hover:text-slate-500">
-        <span className="sr-only">Social Media</span>
-        <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path d={path} />
-        </svg>
-    </a>
-);
 
 
 const Footer: React.FC = () => {
